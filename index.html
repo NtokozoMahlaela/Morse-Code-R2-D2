@@ -4,19 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>R2-D2 Morse Code Translator</title>
-
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
+    <svg class="r2d2-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="var(--primary)">
+      <path d="M12 2c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4m4 7h-.16c-.67.95-1.72 1.59-2.84 1.59s-2.17-.64-2.84-1.59H8c-2.21 0-4 1.79-4 4v2c0 1.11.89 2 2 2h1v1c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-1h2v1c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-1h1c1.11 0 2-.89 2-2v-2c0-2.21-1.79-4-4-4z"/>
+    </svg>
+    
     <h1>R2-D2 Morse Code Translator</h1>
-    <p>Enter text or Morse code below:</p>
-    <textarea id="inputText" placeholder="Type your message here..."></textarea>
-    <div>
-      <button id="encodeBtn">Encode to Morse</button>
-      <button id="decodeBtn">Decode from Morse</button>
+    <p>Convert between text and authentic astromech droid beep sequences</p>
+    
+    <div class="input-group">
+      <textarea id="inputText" placeholder="Type your message here..."></textarea>
     </div>
-    <p>Result:</p>
+    
+    <div class="button-group">
+      <button id="encodeBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+        Encode to Beeps
+      </button>
+      <button id="decodeBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 5v14M19 12l-7 7-7-7"/>
+        </svg>
+        Decode Beeps
+      </button>
+    </div>
+    
+    <p>Transmission Output:</p>
     <textarea id="outputText" readonly></textarea>
   </div>
   <script src="script.js"></script>
