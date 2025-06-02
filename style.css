@@ -186,3 +186,21 @@ button:active {
   transform: rotate(10deg);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1.8rem;
+  }
+  
+  .button-group {
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  body {
+    padding: 1rem;
+  }
+}
