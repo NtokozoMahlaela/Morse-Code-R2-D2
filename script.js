@@ -90,34 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    function scheduleBeep(startTime, frequency, duration) {
-        const oscillator = audioContext.createOscillator();
-        const gainNode = audioContext.createGain();
-        
-        oscillator.type = 'sine';
-        oscillator.frequency.value = frequency;
-        gainNode.gain.value = 0.3;
-        
-        oscillator.connect(gainNode);
-        gainNode.connect(audioContext.destination);
-        
-        gainNode.gain.exponentialRampToValueAtTime(
-            0.001, 
-            startTime + duration + 0.1
-        );
-        
-        oscillator.start(startTime);
-        oscillator.stop(startTime + duration);
-    }
+
     
-    // Random R2-D2 beeping
-    function randomR2Beep() {
-        if (Math.random() > 0.7) {
-            const freq = 300 + Math.random() * 1000;
-            const duration = 0.1 + Math.random() * 0.3;
-            playBeep(freq, duration);
-        }
-    }
     
     // Event listeners
     encodeBtn.addEventListener('click', function() {
