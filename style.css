@@ -162,3 +162,27 @@ button::before {
                 rgba(255, 179, 0, 0.8) 100%);
   color: var(--dark);
 }
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.r2d2-icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 40px;
+  filter: drop-shadow(0 0 5px rgba(66, 165, 245, 0.7));
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.r2d2-icon:hover {
+  transform: rotate(10deg);
+  cursor: pointer;
+}
