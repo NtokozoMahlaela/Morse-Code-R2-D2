@@ -148,3 +148,17 @@ button::before {
                 rgba(255, 255, 255, 0) 100%);
   z-index: 0;
 }
+
+#encodeBtn {
+  background: linear-gradient(135deg, 
+                rgba(66, 165, 245, 0.7) 0%, 
+                rgba(30, 136, 229, 0.7) 100%);
+  color: white;
+}
+
+#decodeBtn {
+  background: linear-gradient(135deg, 
+                rgba(251, 192, 45, 0.8) 0%, 
+                rgba(255, 179, 0, 0.8) 100%);
+  color: var(--dark);
+}
