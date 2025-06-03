@@ -31,10 +31,15 @@ Open index.html in your browser
 📁 Project Structure
 morse-code-r2-d2/
 ├── index.html          # Main HTML file
+
 ├── style.css           # All styling
+
 ├── script.js           # Morse translation and sound logic
+
 ├── README.md           # This file
+
 └── assets/             # (Optional) For future assets
+
 
 🔌 Usage
 Type your message in the input box
