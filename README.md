@@ -30,6 +30,7 @@ Open index.html in your browser
 
 📁 Project Structure
 morse-code-r2-d2/
+
 ├── index.html          # Main HTML file
 
 ├── style.css           # All styling
