@@ -4,6 +4,7 @@
 A futuristic Morse code translator with authentic R2-D2 sound effects and sleek Star Wars-inspired UI. Convert between text and authentic astromech droid beep sequences with this interactive web application.
 
 ✨ Features
+
 Authentic R2-D2 Sound Effects - Hear real beeps when encoding/decoding
 
 Sleek Star Wars UI - Space-themed design with glowing elements
@@ -17,15 +18,18 @@ Responsive Design - Works on all device sizes
 Typing Sound Effects - Keypresses trigger R2-D2 style beeps
 
 🚀 Demo
+
 Try it live: GitHub Pages Link (replace with your deployment link)
 
 Demo Animation
 
 🛠 Installation
+
 Clone the repository:
 
 bash
 git clone https://github.com/NtokozoMahlaela/Morse-Code-R2-D2.git
+
 Open index.html in your browser
 
 📁 Project Structure
@@ -43,6 +47,7 @@ morse-code-r2-d2/
 
 
 🔌 Usage
+
 Type your message in the input box
 
 Click "Encode to Beeps" to convert to Morse code
@@ -54,6 +59,7 @@ Click the R2-D2 icon for surprise beeps!
 
 
 🤖 R2-D2 Features
+
 The translator includes these special R2-D2 touches:
 
 Random beeps every 3 seconds
