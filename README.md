@@ -5,7 +5,7 @@
 
 A futuristic Morse code translator with authentic R2-D2 sound effects and sleek Star Wars-inspired UI. Convert between text and authentic astromech droid beep sequences with this interactive web application.  
 
-![Demo Preview](https://via.placeholder.com/800x400.png?text=R2-D2+Morse+Translator+Demo) *(replace with actual screenshot/gif)*  
+![Demo Preview](https://via.placeholder.com/800x400.png?text=R2-D2+Morse+Translator+Demo) 
 
 ## ✨ Features  
 
@@ -18,12 +18,31 @@ A futuristic Morse code translator with authentic R2-D2 sound effects and sleek 
 
 ## 🚀 Demo  
 
-Try it live: [GitHub Pages](https://ntokozomahlaela.github.io/Morse-Code-R2-D2/) *(replace with your link)*  
+Try it live: [GitHub Pages](https://ntokozomahlaela.github.io/Morse-Code-R2-D2/)  
 
 ## 🛠 Installation  
 
-1. Clone the repository:  
+1. Clone the repository:
 ```bash
 git clone https://github.com/NtokozoMahlaela/Morse-Code-R2-D2.git
+
+
+## Project Structure
+morse-code-r2-d2/
+├── index.html          # Main HTML file
+├── style.css           # All styling
+├── script.js           # Morse translation and sound logic
+├── README.md           # This file
+└── assets/             # Sound effects and images
+    ├── sounds/
+    └── images/
+
+
+
+
+
+
+
+
 
 
