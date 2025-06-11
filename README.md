@@ -5,7 +5,7 @@
 
 A futuristic Morse code translator with authentic R2-D2 sound effects and sleek Star Wars-inspired UI. Convert between text and authentic astromech droid beep sequences with this interactive web application.  
 
-![Demo Preview](https://via.placeholder.com/800x400.png?text=R2-D2+Morse+Translator+Demo) 
+![Demo Preview]([https://via.placeholder.com/800x400.png?text=R2-D2+Morse+Translator+Demo](https://morse-code-r2-d2.netlify.app/)) 
 
 ## ✨ Features  
 
@@ -18,7 +18,7 @@ A futuristic Morse code translator with authentic R2-D2 sound effects and sleek 
 
 ## 🚀 Demo  
 
-Try it live: [GitHub Pages](https://ntokozomahlaela.github.io/Morse-Code-R2-D2/)  
+Try it live: [GitHub Pages]([https://ntokozomahlaela.github.io/Morse-Code-R2-D2/](https://morse-code-r2-d2.netlify.app/))  
 
 ## 🛠 Installation  
 
@@ -26,8 +26,9 @@ Try it live: [GitHub Pages](https://ntokozomahlaela.github.io/Morse-Code-R2-D2/)
 ```bash
 git clone https://github.com/NtokozoMahlaela/Morse-Code-R2-D2.git
 
-
+```
 ## Project Structure
+```
 morse-code-r2-d2/
 ├── index.html          # Main HTML file
 ├── style.css           # All styling
@@ -37,7 +38,30 @@ morse-code-r2-d2/
     ├── sounds/
     └── images/
 
+```
+## 🔌 Usage  
 
+- Type your message in the input box  
+- Click "Encode to Beeps" to convert to Morse code  
+- Click "Decode Beeps" to convert Morse back to text  
+- Click the R2-D2 icon for surprise beeps!  
+
+## 🤖 Special R2-D2 Features  
+
+- Random beeps every 3 seconds  
+- Interactive icon that plays a beep sequence when clicked  
+- Typing sounds that mimic droid chatter  
+- Success beeps after encoding/decoding  
+
+## 🛠️ Built With  
+
+- HTML5  
+- CSS3 (with animations)  
+- JavaScript (ES6)    
+
+## 🤝 Contributing  
+
+Pull requests are welcome! For major changes, please open an issue first.  
 
 
 
