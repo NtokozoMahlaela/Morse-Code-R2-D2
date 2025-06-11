@@ -4,8 +4,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)  
 
 A futuristic Morse code translator with authentic R2-D2 sound effects and sleek Star Wars-inspired UI. Convert between text and authentic astromech droid beep sequences with this interactive web application.  
-
-![Demo Preview]([https://via.placeholder.com/800x400.png?text=R2-D2+Morse+Translator+Demo](https://morse-code-r2-d2.netlify.app/)) 
+ 
 
 ## ✨ Features  
 
